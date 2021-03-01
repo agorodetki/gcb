@@ -26,7 +26,7 @@ phases:
           fields:
             URGENCY: '1'
             IMPACT: '1'
-            CHANGE_REQUEST_NUMBER: f
+            CHANGE_REQUEST_NUMBER: 123
           additionalFields: null
     stepsInParallel: false
   - type: COLLECT_ARTIFACT
