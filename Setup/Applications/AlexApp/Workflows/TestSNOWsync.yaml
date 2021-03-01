@@ -14,6 +14,20 @@ phases:
   phaseSteps:
   - type: PREPARE_STEPS
     name: Prepare Steps
+    steps:
+    - type: SERVICENOW_CREATE_UPDATE
+      name: ServiceNow
+      properties:
+        serviceNowCreateUpdateParams:
+          action: UPDATE
+          snowConnectorId: h1A4JHzMSGu7qeoBiGW7qw
+          ticketType: CHANGE_TASK
+          updateMultiple: true
+          fields:
+            URGENCY: '1'
+            IMPACT: '1'
+            CHANGE_REQUEST_NUMBER: f
+          additionalFields: null
     stepsInParallel: false
   - type: COLLECT_ARTIFACT
     name: Collect Artifact
