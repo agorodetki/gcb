@@ -24,7 +24,7 @@ phases:
           ticketType: CHANGE_TASK
           updateMultiple: true
           fields:
-            CHANGE_REQUEST_NUMBER: '123'
+            CHANGE_REQUEST_NUMBER: 'd'
             CHANGE_TASK_TYPE: planning
           additionalFields: null
     stepsInParallel: false
